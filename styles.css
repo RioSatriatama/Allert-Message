@@ -1,0 +1,53 @@
+/* Alert message base style */
+.alert {
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.6s;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Success message style */
+.success {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+/* Alert message style */
+.warning {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+/* Icon style */
+.icon {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+/* Text style */
+.message-text {
+    flex: 1;
+}
+
+/* Close button */
+.closebtn {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+/* Animation for showing the message */
+.show {
+    opacity: 1;
+}
